@@ -3,68 +3,78 @@
 
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Portifolio">
-    <meta name="author" content="Lyncoln Campello">
-    <meta name="keywords" content="HTML, CSS,  JAVASCRIPT">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
+    <meta name="description" content="Projeto Portfólio">
+    <meta name="author" content="Generation Brasil">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Meu Perfil</title>
 </head>
 
 <body>
 
-    <!-- Cabeçalho da Página (header)-->
+    <!-- Cabeçalho da Página (header) -->
     <header>
 
-        <!-- div conteudo do cabeçalho-->
-        <div id=" header_content">
+        <!-- Div Conteudo do Cabeçalho -->
+        <div id="header_content" class="flex">
 
-            <!-- div titulo do cabeçalho-->
+            <!-- Titulo do Cabeçalho -->
             <div id="titulo">
 
                 <h1>Lyncoln Campello</h1>
 
             </div>
 
-            <!--Conteudo do menu da página-->
+            <!-- Conteudo do Menu da Página (header) -->
             <div id="menu">
 
-                <!-- Menu da página -->
+                <!-- Menu da Página -->
                 <nav>
 
-                    <!--Marcadores não ordenados e links-->
-                    <ul>
+                    <!-- Marcadores não ordenados + links -->
+                    <ul id="menu">
                         <li>
-                            <a href="index.html"> Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="contato.html"> Contato</a>
+                            <a href="contato.html">Contato</a>
                         </li>
-
                     </ul>
 
                 </nav>
+
             </div>
+
         </div>
 
     </header>
 
-    <!--Sessão Principal (main)-->
+    <!-- Seção Principal da Página (main) -->
     <main>
 
-        <!-- Seção sobre mim-->
-        <section id="about">
+        <!-- Seção Sobre você -->
+        <section id="about" class="flex_start">
 
-            <!--Titulo da seção-->
+            <!-- Título da Seção -->
             <h2>Sobre Lyncoln</h2>
 
-            <!--div conteudo da seção-->
-            <div id="conteudo">
+            <!-- Conteúdo da Seção -->
+            <div id="conteudo" class="flex">
 
-                <img src="./assets/img/IMG_20241007_220545_051_Easy-Resize.com.jpg" alt="Foto do criador do conteudo" />
+                <!-- Imagem do criador do conteúdo -->
+                <img src="./assets/img/IMG_20241007_220545_051_Easy-Resize.com.jpg" alt="Foto do criador desse conteudo"
+                    class="img_profile" />
 
-                <!---Texto sobre mim-->
+                <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
+
                     <p>
                         Iniciei minha trajetória na área de Desenvolvimento Full Stack com
                         foco em tecnologias essenciais do mercado, como Java, Spring, React,
@@ -75,44 +85,54 @@
                         com metodologias ágeis, preparando-me para contribuir em ambientes de
                         desenvolvimento dinâmicos e colaborativos.
                     </p>
+
+
                 </article>
+
             </div>
+
         </section>
 
-        <!--Seção contendo um video de minha preferência-->
-        <section id="video">
-            <h2>Minha música favorita:</h2>
+        <!-- Seção contendo um vídeo de sua preferência -->
+        <section id="video" class="flex_start">
 
-            <div id="youtube">
+            <!-- Título da Seção -->
+            <h2>Minha música favorita do momento:</h2>
+
+            <!-- Vídeo da Seção -->
+            <div id="youtube" class="flex">
+
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Letxkkp_iVY?si=_Umb8cRZvUKsISNp"
-                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                    encrypted-media; gyroscope; picture-in-picture; web-share"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
+
             </div>
 
         </section>
 
     </main>
 
-    <!-- Rodapé da Página (footer)-->
-    <footer>
+    <!-- Rodapé da Página (footer) -->
+    <footer class="flex">
 
+        <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
             <a href="https://www.linkedin.com/in/lyncoln-campello" target="_blank">
-                <img src="assets/img/linkedin.svg" alt="linkedin">
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
             </a>
             <a href="https://github.com/lyncoln-campello/" target="_blank">
-                <img src="assets/img/github.svg" alt="github">
+                <img src="assets/img/github.svg" alt="Github" class="social_icon" />
             </a>
-            <a href="https://www.instagram.com/lyncolncampello/" target="_blank">
-                <img src="assets/img/instagram.svg" alt="instagram">
+            <a href="https://www.instagram.com/lyncolncampello" target="_blank">
+                <img src="assets/img/instagram.svg" alt="Instagram" class="social_icon" />
             </a>
-
-            <h3> Feito com ❤ por Lyncoln Campello - 2025</h3>
 
         </section>
+
+        <h3>Feito com 🧡 por Lyncoln Campello- 2025</h3>
 
     </footer>
 
